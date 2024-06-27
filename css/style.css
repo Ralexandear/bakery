@@ -1,0 +1,124 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe2b0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+img #logo {
+  align-self: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+li:last-child {
+  margin-right: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.section-about {
+  height: 640px;
+  background: url(../image/01-Картинка-фона.jpg) center/cover no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section-about__description {
+  height: 190px;
+  width: 420px;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  top: 54%;
+  left: 50%;
+  padding-top: 15px;
+}
+.section-about__border {
+  height: 160px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 17px 0 0 28px;
+}
+.section-about__title {
+  font-size: 36px;
+  margin: 0 0 9px 0;
+}
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+.section-description__icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-description__icon-box img {
+  margin-right: 76px;
+}
+.section-description__icon-box img:last-child {
+  margin: 0;
+}
+.section-description__text-wrapper {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.section-description__header {
+  font-size: 96px;
+  margin: 0;
+}
+.section-description__text {
+  font-size: 18px;
+  font-style: reg;
+}
+
+.section-order__title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.section-order__line {
+  height: 1px;
+  width: 1024px;
+  border: 1px solid #999999;
+  margin: 0 auto 20px auto;
+}
+.section-order iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
